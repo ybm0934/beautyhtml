@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>BEAUTY INSIDE</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('a[href^="#"]').on('click',function (e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function () {
+                    window.location.hash = target;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header id="header">
+        <ul id="main_ul">
+            <li>
+                <span class="ul_spn">
+                    <a href="#main" id="aaa">메인</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#about">소개</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#service">서비스</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#portfolio">포트폴리오</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#">후기</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#contact">문의</a>
+                </span>
+            </li>
+            <li>
+                <span class="ul_spn">
+                    <a href="#">예약</a>
+                </span>
+            </li>
+        </ul>
+    </header>
+    <div id="main_div">
+        <div class="main_div_class" id="main">
+            <span id="main_title">PURE</span>
+            <span id="main_title_dot">.</span>
+            <br>
+            <span id="main_title_2">마법같은 메이크업!</span>
+        </div>
+        <div class="main_div_class" id="blank"></div>
+        <div class="main_div_class" id="about"></div>
+        <div class="main_div_class" id="service"></div>
+        <div class="main_div_class" id="blank2"></div>
+        <div class="main_div_class" id="portfolio">
+            <table id="portfolio_table">
+                <caption>포트폴리오 테이블</caption>
+                <thead></thead>
+                <tfoot></tfoot>
+                <tbody>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="main_div_class" id="blank3"></div>
+        <div class="main_div_class" id="contact"></div>
+    </div>
+    <footer id="footer">
+        <span>&copy; 2023 by BeautyInside. Proudly created with beauty.com</span>
+    </footer>
+</body>
+</html>

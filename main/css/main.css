@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+
+/* 헤더 CSS */
+
+#header {
+    font-family: 'Hahmlet', serif;
+    text-align: center;
+    padding:25px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(245,245,255,1) 0%, rgba(255,255,255,1) 100%);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#main_ul {
+    margin: 0 auto;
+}
+
+#main_ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.ul_spn {
+    font-size: 20PX;
+    padding-right: 50px;
+}
+
+.ul_spn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 풋터 CSS */
+
+#footer {
+    height: 100px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+#footer span {
+    position: relative;
+    top: 35%;
+}
+
+
+/* 메인 페이지 CSS */
+
+body {
+    margin: 0 auto;
+}
+
+#main_div {
+    background-image: url('../../img/flowers-g0decc2ffd_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.main_div_class {
+    height: 1200px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main_title {
+    font-size: 150px;
+    font-family: 'Ramabhadra', sans-serif;
+    position: relative;
+    top: 30%;
+}
+
+#main_title_dot {
+    font-size: 180px;
+    font-family: 'Hahmlet', serif;
+    position: relative;
+    top: 30%;
+    color: #febdbd;
+}
+
+#main_title_2 {
+    position: relative;
+    top: 28%;
+    font-size: 30px;
+    font-family: 'Hahmlet', serif;
+    color: #fea9a9;
+}
+
+#blank {
+    background-image: url('../../img/young-woman-g052f7f011_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#about {
+    background-image: url('../../img/pure (6).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#service {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#blank2 {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#portfolio_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    visibility: hidden;
+}
+
+#portfolio_table tr td {
+    border: 1px solid red;
+}
+
+#portfolio_table img {
+    
+}
+
+#blank3 {
+    background-image: url('../../img/rose-g14a9ce0a3_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contact {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#reserve {
+    background-image: url('../../img/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
