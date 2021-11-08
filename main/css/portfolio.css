@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+
+    background-image: url('/img/pillows-820149.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    min-height: 100%;
+	height: auto;
+	padding-bottom: 100px;
+}
+
+/* 포트폴리오 CSS */
+
+#wrap {
+    -webkit-touch-callout: none;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+
+    min-height: 100%;
+	height: auto;
+	padding-bottom: 100px;
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    
+    margin-top: 100px;
+}
+
+#portfolio_table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#portfolio_table tr td {
+    overflow: hidden;
+    padding: 0;
+}
+
+.moveTd {
+    width: 20%;
+}
+
+.moveDiv {}
+
+.moveDiv img {
+    width: 80px;
+    opacity: 0.9;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.moveDiv1 {
+    text-align: left;
+}
+
+.moveDiv2 {
+    text-align: right;
+}
+
+.container {
+    transition-duration: 0.8s;
+    white-space: nowrap;
+}
+
+.inner {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.inner li {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.inner img {
+    vertical-align: middle;
+    width: 100%;
+    height: 80vh;
+}

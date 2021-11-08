@@ -1,0 +1,39 @@
+/* 예약하기 CSS */
+
+#reserve_div {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#reserve_table {
+    width: 100%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+
+}
+
+#reserve_table tr th {
+    border: 1px solid gray;
+    width: 90px;
+    padding: 15px;
+}
+
+#reserve_table tr td {
+    border: 1px solid gray;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#reserve_table tr td:hover {
+    background-color: pink;
+    transition-duration: 0.3s;
+}
+
+.sun {
+    color: red;
+}
+
+.sat {
+    color: blue;
+}
